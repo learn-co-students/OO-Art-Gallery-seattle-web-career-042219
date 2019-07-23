@@ -15,6 +15,6 @@ Painting.new(a1, g2, 800, "Starry Night on the Rhone")
 Painting.new(a2, g3, 900, "Water Lillies")
 Painting.new(a3, g1, 100, "Picasso was a hack")
 
-binding.pry
+Pry.start
 
 puts "Bob Ross rules."
