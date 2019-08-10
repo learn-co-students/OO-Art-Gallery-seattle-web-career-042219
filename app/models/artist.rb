@@ -53,4 +53,7 @@ class Artist
     # returns one artist object
   end
 
+  def create_painting(title, price, gallery)
+    Painting.new(title, price, self, gallery)
+  end
 end
